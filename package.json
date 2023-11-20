@@ -2,7 +2,7 @@
   "name": "recipe",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://foodrecipeapp.github.io/food_recipe_app",
+  "homepage": "http://dharaneeshoffl.github.io/foodrecipeapp",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",

@@ -68,11 +68,11 @@ button{
         top:3px;
         border: none;
         outline: none;
-        border-radius: 12px;
-        -webkit-border-radius: 12px;
-        -moz-border-radius: 12px;
-        -ms-border-radius: 12px;
-        -o-border-radius: 12px;
+        border-radius: 20px;
+        -webkit-border-radius: 20px;
+        -moz-border-radius: 20px;
+        -ms-border-radius: 20px;
+        -o-border-radius: 20px;
         background-color: rgb(230, 126, 8);
         color: black;
         font-size: 20px;
@@ -219,3 +219,73 @@ margin-top: 150px;
   }
   
 
+/* Your existing CSS code... */
+
+/* Media Query for mobile devices */
+@media screen and (max-width: 480px) {
+  .recipe h1 {
+    padding-left: 10px; /* Adjust padding for smaller screens */
+    font-size: 20px; /* Adjust font size for smaller screens */
+  }
+
+  .recipe {
+    margin: 5%;
+    padding-left: 10px; /* Adjust padding for smaller screens */
+  }
+
+  .item {
+    padding: 10px; /* Adjust padding for smaller screens */
+    gap: 5px;
+    margin-top: 10px;
+    border-radius: 15px;
+  }
+
+  input {
+    width: 80%; /* Adjust input width for smaller screens */
+    margin: 5px auto;
+    padding: 10px;
+    font-size: 14px; /* Adjust font size for smaller screens */
+  }
+
+  button {
+    width: 30%; /* Adjust button width for smaller screens */
+    left: 69%; /* Adjust button position for smaller screens */
+    /* transform: translateX(-50%);
+     */
+     height: 9px;
+    margin-top: 18px;
+    font-size: 14px; /* Adjust font size for smaller screens */
+  }
+
+  .img {
+    width: 100%; /* Adjust image width for smaller screens */
+    text-align: center;
+  }
+
+  .img img {
+    height: auto;
+    /*Maintainaspectratioforsmallerscreens*/width: 80%;
+    border-radius: 10px;
+    /*Removeborderradiusforsmallerscreens*/
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+  .img h3,
+  .img p {
+    font-size: 14px; /* Adjust font size for smaller screens */
+  }
+
+  .loader {
+    width: 20px; /* Adjust loader size for smaller screens */
+    height: 20px;
+    border-width: 2px;
+  }
+
+  .loading-message {
+    margin: 30px auto; /* Adjust margins for smaller screens */
+    text-align: center;
+  }
+}
