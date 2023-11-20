@@ -1,0 +1,72 @@
+/* RecipeApp.css */
+
+.recipe-app {
+    font-family: 'Gill, Arial, sans-serif';
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .input-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .input-field {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .search-button {
+    padding: 10px 20px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .recipe-list {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .recipe-card {
+    flex: 1;
+    margin: 10px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px; /* Make the card round */
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  .recipe-image {
+    max-width: 100px;
+    max-height: 100px;
+    flex: 1;
+    transition: transform 0.2s;
+    cursor: pointer;
+    border-radius: 50%;
+  }
+  
+  .recipe-image:hover {
+    transform: scale(1.2);
+  }
+  
+  .recipe-details {
+    flex: 2;
+    margin-top: 10px;
+  }
+  
+  .recipe-label {
+    margin: 0;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  

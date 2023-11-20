@@ -1,0 +1,221 @@
+body{
+    /* background-color: rgb(197, 159, 159); */
+}
+
+.recipe h1{
+    color:rgb(240, 76, 11);
+    font-weight: bold;
+    padding-left: 160px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: oblique;
+    
+    
+}
+
+.recipe{
+   margin: 3%;
+   padding-left: 395px;
+  
+
+}
+
+.item{
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 45px;
+    gap: 23px;
+    margin-top: 40px;
+    border-radius: 40px;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    -ms-border-radius: 40px;
+    -o-border-radius: 40px;
+    
+}
+
+input{
+    width: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    /* margin-left: 50px; */
+    background-color: rgb(53, 53, 51);
+    border: none;
+    outline: none;
+    color: rgb(250, 244, 244);
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    position: absolute;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+button{
+        width: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding:16px;
+        position: relative;
+        left: 537px;
+        top:3px;
+        border: none;
+        outline: none;
+        border-radius: 12px;
+        -webkit-border-radius: 12px;
+        -moz-border-radius: 12px;
+        -ms-border-radius: 12px;
+        -o-border-radius: 12px;
+        background-color: rgb(230, 126, 8);
+        color: black;
+        font-size: 20px;
+        font-weight: bold;
+        cursor: pointer;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+button:hover{
+    background-color: rgb(212, 87, 38);
+    color: black;
+
+}
+
+.img{
+    height: 480px;
+    width: 340px;
+    background-color: rgb(53, 53, 51);
+    color: whitesmoke;
+    /*text-align: center;
+    */border-radius: 15px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    position: relative;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.img:hover .card-content
+{
+    display: block;
+  background: #676363;
+  color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  padding: 10px;
+  z-index: 1;
+  width: 320px;
+}
+
+.card-content {
+    display: none;
+  }
+
+
+
+ .type{
+  text-align: center;
+  text-transform: capitalize;
+ }
+
+
+.img img{
+    height: 300px;
+    width: 300px;
+    margin: 20px;
+    cursor: pointer;
+    border-radius: 60%;
+    -webkit-border-radius: 60%;
+    -moz-border-radius: 60%;
+    -ms-border-radius: 60%;
+    -o-border-radius: 60%;
+}
+
+.img h3{
+  text-transform: capitalize;
+    color: #fff;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    cursor: pointer;
+}
+
+.img p{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    cursor: pointer;
+}
+
+.img img:hover{
+    transform: scale(1.1);
+    -webkit-transform: scale(1.05);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+
+.img:hover{
+    background-color: rgb(28, 27, 27);
+    transition: 0.4s;
+    -webkit-transition: 0.4s;
+    -moz-transition: 0.4s;
+    -ms-transition: 0.4s;
+    -o-transition: 0.4s;
+}
+
+
+.loader {
+    width: 48px;
+    height: 48px;
+    border: 5px solid #343333;
+    border-radius: 50%;
+    display: inline-block;
+    position: relative;
+    box-sizing: border-box;
+    animation: rotation 1s linear infinite;
+  }
+  .loader::after {
+    content: '';  
+    box-sizing: border-box;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    border: 5px solid;
+    border-color: orange transparent;
+  }
+  
+  @keyframes rotation {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  } 
+
+  .loading-message{
+/* background-color: blue; */
+margin-left: 400px;
+margin-top: 150px;
+  }
+  
+
